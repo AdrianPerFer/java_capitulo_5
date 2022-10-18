@@ -10,8 +10,8 @@ import java.util.Scanner;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca un número: ");
-        int numero = sc.nextInt();
-        int aux = numero;
+        long numero = sc.nextInt();
+        long aux = numero;
         int i = 0;
         do {
             i++;
