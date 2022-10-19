@@ -17,14 +17,9 @@ public class Ejercicio15 {
         int base = sc.nextInt();
         System.out.println("Introduce el exponente del número: ");
         int exponente = sc.nextInt();
-        double potencia;
-        int aux;
+        double potencia = 1;
         for (int i = 1; i <= exponente; i++) {
-            potencia = 1;
-            aux = i;
-            for (int i2 = 0; i2 < aux; i2++) {
-                potencia = potencia * base;
-            }
+            potencia = potencia * base;
             System.out.println(base + "^" + i + " = " + potencia);
         }
         sc.close();
