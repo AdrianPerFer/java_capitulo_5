@@ -20,9 +20,6 @@ public class Ejercicio17 {
         }
         for ( int i = numero ; i < 100 + numero ; i++ ) {
             sumaTotal += i;
-            System.out.print(sumaTotal + " ");
-            System.out.println("");
-            System.out.print(i + " ");
         }
         System.out.println("Suma total: " + sumaTotal);
         sc.close();
