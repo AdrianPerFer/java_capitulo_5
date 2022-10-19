@@ -35,5 +35,6 @@ public class Ejercicio18 {
         for ( int i = menor ; i <= mayor ; i+=7 ) {
             System.out.print(i + " ");
         }
+        sc.close();
     }
 }
