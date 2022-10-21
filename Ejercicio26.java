@@ -37,7 +37,7 @@ public class Ejercicio26 {
             auxDigito = numeroReves % 10;
             i++;
             if (auxDigito == digito){
-                System.out.println("Posición " + i + ", " + "coincide con el digito " + digito + " introducido.");
+                System.out.println("Posición " + i + ", del número " + numero + " coincide con el digito " + digito + " introducido.");
             }
             numeroReves /= 10;
         }
