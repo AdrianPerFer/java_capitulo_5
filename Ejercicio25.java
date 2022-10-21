@@ -15,6 +15,13 @@ public class Ejercicio25 {
         int aux = numero;
         int numeroReves = 0;
         while (aux > 0) {
+            /*
+             * La secuencia sería (1234 por ejemplo): 
+             * 0 + 4
+             * (4 * 10) + 3 = 43
+             * 430 + 2 = 432
+             * 4320 + 1 = 4321
+             */
             numeroReves = (numeroReves * 10) + ( aux % 10 );
             aux /= 10;
         }
