@@ -16,7 +16,6 @@ public class Ejercicio32 {
         long aux = numero;
         long numeroReves = 0;
         long digito = 0;
-        int i = 0;
         int sumaPares = 0;
         while (aux > 0) {
             /*
@@ -31,7 +30,6 @@ public class Ejercicio32 {
         }
         while (numeroReves > 0) {
             digito = numeroReves % 10;
-            i++;
             if (digito % 2 == 0) {
                 sumaPares += digito;
                 System.out.println("El digito " + digito + " es par.");
