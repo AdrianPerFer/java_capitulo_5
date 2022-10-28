@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Ejercicio52 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Introduce un numero: ");
+        System.out.print("Introduce un número: ");
         long numero = sc.nextLong();
         long aux = numero;
         long numeroReves = 0;
@@ -31,7 +31,7 @@ public class Ejercicio52 {
             numeroReves /= 10;
         }
         numeroReves2 = ((numeroReves2 * 10) + digito);
-        System.out.println(numeroReves2);
+        System.out.println("El número resultado es " + numeroReves2);
         sc.close();
     }
 }
