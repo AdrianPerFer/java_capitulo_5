@@ -20,7 +20,7 @@ public class Ejercicio49 {
         int maximo = 0;
         int minimo = numero;
         boolean esPrimo;
-        do {
+        do { 
             numero = sc.nextInt();
             esPrimo = true;
             for (int i = 2; i < numero; i++) {
