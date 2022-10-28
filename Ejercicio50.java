@@ -33,7 +33,7 @@ public class Ejercicio50 {
                     System.out.print("****");
                 } else if (i == 2) {
                     System.out.print("*   "); 
-                } else if ((i > 3 && i < altura)) {
+                } else if (i > 3 && i < altura) {
                     System.out.print("   *");
                 }
                 // espacios entre el segundo y el tercer número
@@ -44,7 +44,7 @@ public class Ejercicio50 {
                     System.out.print("****");
                 } else if (i == 2) {
                     System.out.print("*   "); 
-                } else if ((i == 2) || (i > 3 && i < altura)) {
+                } else if (i > 3 && i < altura) {
                     System.out.print("   *");
                 }
                 System.out.println("");
