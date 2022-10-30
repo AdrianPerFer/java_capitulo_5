@@ -47,5 +47,6 @@ public class Ejercicio65 {
             }
             System.out.println("");
         }
+        sc.close();
     }
 }
